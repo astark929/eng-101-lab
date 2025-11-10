@@ -48,9 +48,12 @@ for the elevator, this also depends on what you want to do. there are different 
     or something to move the counter weight and move the payload up.
   
 
-
-
-
+NOTE:
+there does not seem to be a shield in the kit, nor other major circuit boards other than the 
+red board, and the ardumoto board. meaning we can't make a wireless controller. 
+has to be autonomus.
+meaning, we either need the code to plan out everything. having the result always be the same. 
+or have the sensors help determine whats going on, and code the path it wants to take.
 
 
 
