@@ -1,0 +1,56 @@
+so this is the idea page. if i cant talk to you guys right now, or i'm gone for what ever reason.
+i'll place my thoughts here, and you guys can let me know what you guys want to do later.
+
+lab objective:
+  - a car comes into the wearhouse, we need to detect it at particular intervals to notify us
+
+  - then the car will park in a specific location. OUR car, need to pick up the payload 
+    within the truck and drive it around some obsitcles. 
+
+  - next we need to elevate the payload from the car onto a platform 
+    (note we cannot put anything on the platform)
+
+CAR IDEAS:
+we already know the car will have motors, that is a given. grabbing the payload is the issue
+
+  - CRANE: we can make a crane of sorts, connecting two servos. one to rotate the crane,
+    the other to activate the crane. 
+    1) CRANE-PULLY SYSTEM, where gravity does most of the work.
+      (down side, if the payload weighs too much, the friction and normal force will be out done
+      by the weight of the payload, causing the payload to fall.)
+
+    2) CRANE-MECHANICAL CLAW, where we have the servo connected 
+      to gears, which is then attatched to the claw
+      (this is a study option, it may solve the issue of the payload falling because
+      the gears would force it to not open. however depending on the weight, 
+      it may destroy the servo)
+
+  - TREBUCHET: perhaps we can skip the obstacles entirely, creating a trebuchet of sorts
+    to launch to payload onto the elevated surface.
+    (this may work, but will need constant testing and you need to 
+    understand projectile motion, a physics topic)
+
+
+ELEVATION IDEAS:
+for the elevator, this also depends on what you want to do. there are different ways to do this
+  - SIMPLE ELEVATOR, seems like servos will not be enough here, considering the height. 
+    but motors can work, though a bit iffy, but possible. just need a frame, with a motor at the
+    top. and the motor will rotate to push up or down the elevator system.
+
+  - again perhaps we can skip the elevation entirely and use a trebuchet.
+
+  - we can go back to the crane idea, and make an elevated crane. where once it reaches the
+    platform, we can have the crane elevate upwards. 
+    (though, i may not have enough motor pins for adding an extra motor for the car)
+
+  - PULLY SYSTEM. now, we would need to have a sensor to check
+    if there is an object in front. then it triggers a system, like a servo or a motor, 
+    or something to move the counter weight and move the payload up.
+  
+
+
+
+
+
+
+
