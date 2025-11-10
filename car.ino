@@ -37,11 +37,11 @@ const int d2 = 4;
 
 //servor universal variables
 //may need
-#define serv1 d1
+//#define serv1 d1
+const int SPin - 9;
 Servo servo; 
 
 //sensor universal variables
-
 //#define triggerpin d9
 //#define echopin d10
 const int triggerPin = 9;
@@ -186,8 +186,29 @@ float getdistance(){
 }
 void checkobj(){
   if(getdistance < 1){
+    stopped();
+    delay(1000);
     backwards(10);
+    delay(1000);
+    stopped();
   }
+}
+
+//servo methods
+void serveroSetup(){
+  servo.attach(SPin);
+}
+void Sleft(){
+  servo.write(45);
+}
+void Sright(){
+  servo.write(135);
+}
+void Scenter(){
+  servo.write(90);
+}
+void Sangle(int a){
+  servo.write(a);
 }
 
 
